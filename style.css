@@ -24,13 +24,13 @@
     border-radius:10px;
     transition: all 0.5s;
     border:0.3rem groove rgb(56, 17, 231);
-    margin-left: 7.5rem;
+    margin-left: 8rem;
     font-weight: bold;
     
     
 }
 
-#btn:hover{
+.btn:hover{
 
 background-color:lightcoral;
 
@@ -51,7 +51,7 @@ h1{
     
     }
     .btn{
-        margin-left:2rem;
+        margin-left:3rem;
     }
 }
 
