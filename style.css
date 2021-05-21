@@ -1,57 +1,62 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+/*==== css reset start ==== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/*==== css reset end ==== */
 
+/*==== general styling start ==== */
 
-
-.container{
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    height:100vh;
-
-
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.btn{
-    color:white;
-    background-color:#10cbe4; 
-    padding:10px 20px; 
-    border-radius:10px;
-    transition: all 0.5s;
-    border:0.3rem groove rgb(56, 17, 231);
-    margin-left: 8rem;
-    font-weight: bold;
-    
-    
+/*==== general styling end ==== */
+
+/*==== typography start ==== */
+h1 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: aquamarine;
+  font-size: 2rem;
 }
 
-.btn:hover{
+/*==== typography end ==== */
 
-background-color:lightcoral;
+/*==== button start ==== */
 
-}
-h1{
-    text-align: center;
-    margin-bottom: 0.5rem;
-    color:aquamarine;
-    font-size: 2rem;
-}
-
-
-@media  screen and (max-width:48rem){
-
-    h1{
-       
-        font-size: 1rem;
-    
-    }
-    .btn{
-        margin-left:2.5rem;
-    }
+.btn {
+  color: white;
+  background-color: #10cbe4;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: all 0.5s;
+  border: 0.3rem groove rgb(56, 17, 231);
+  margin-left: 8rem;
+  font-weight: bold;
 }
 
+.btn:hover {
+  background-color: lightcoral;
+}
+/*==== button end  ==== */
+
+/*==== responsive design start  ==== */
+
+@media screen and (max-width: 48rem) {
+  h1 {
+    font-size: 1rem;
+  }
+  .btn {
+    margin-left: 2.5rem;
+  }
+}
+
+/*==== responsive design end  ==== */
