@@ -5,28 +5,29 @@
 }
 
 
-section{
-    border:2px solid black; 
-    
 
-}
 
 .container{
     display: flex;
+    flex-direction:column;
     justify-content: center;
     align-items: center;
-    flex-direction:column;
     height:100vh;
-    margin: 20px 0px;
+
 
 }
 
-#btn{
-    color:blue;
-    background-color:black; 
+.btn{
+    color:white;
+    background-color:#10cbe4; 
     padding:10px 20px; 
     border-radius:10px;
     transition: all 0.5s;
+    border:0.3rem groove rgb(56, 17, 231);
+    margin-left: 7.5rem;
+    font-weight: bold;
+    
+    
 }
 
 #btn:hover{
@@ -34,5 +35,23 @@ section{
 background-color:lightcoral;
 
 }
+h1{
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color:aquamarine;
+    font-size: 2rem;
+}
 
+
+@media  screen and (max-width:48rem){
+
+    h1{
+       
+        font-size: 1rem;
+    
+    }
+    .btn{
+        margin-left:2rem;
+    }
+}
 
